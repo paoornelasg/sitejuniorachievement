@@ -1,0 +1,228 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+/*Panel de navegación*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand img {
+  width: 30%;
+  min-width: 25%;
+  padding-left: 50px;
+}
+
+.navbar-nav li {
+  padding-right: 50px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+}
+
+.btn-sum {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-sum:hover {
+  background-color: #286075;
+  border: 2px #286075;
+  border-radius: 8px;
+}
+
+/*Descripción breve*/
+.main-title {
+  margin-top: 15px;
+  font-size: 50px;
+  color: #286075;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.main-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Nunito", sans-serif;
+  margin-right: 20px;
+}
+
+.main-text p {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.main-video {
+  margin-right: 30px;
+  margin-left: 40px;
+  position: relative;
+  padding-bottom: 20%;
+  height: 0;
+}
+
+.main-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Información de la organización*/
+.contenedor img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.contenedor h1 {
+  font-size: 38px;
+  color: #286075;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+  color: #333333;
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: #f0f0f0;
+  font-family: "Nunito", sans-serif;
+  justify-content: center;
+}
+
+.contenedor p {
+  margin: 20px;
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.caja img {
+  border-radius: 50%;
+}
+
+.caja p {
+  font-size: 18px;
+}
+
+.caja a {
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+
+.map {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+}
+
+.carrouselExampleControls a{
+  text-decoration: none;
+}
+
+/*Desafío-solución*/
+.ds {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  background-color: #f0f0f0;
+  padding-left: 20px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.ds p {
+  margin: 40px;
+}
+
+.ds h1 {
+  margin: 10px;
+  font-size: 36px;
+  color: #286075;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.ds-video {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+}
+
+.ds-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+}
+
+/*Footer*/
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-brand {
+      display: none;
+    }
+}
+
